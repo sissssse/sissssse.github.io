@@ -1,0 +1,256 @@
+<!DOCTYPE html> <!--22061010_김가은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #CD5C5C;
+      }
+
+      .header {
+        padding: 30px;
+        text-align: center;
+            background: #556B2F;
+      }
+
+      .header h1 {
+      font-size: 70px;
+      }
+      /*글로벌 내비게이션 바*/
+      .topnav {
+        overflow: hidden;
+        background: #808000;
+      }
+      .topnav a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover{
+       background-color: #808000;
+       color: black;
+      }
+      /*레이아웃 외곽  */
+      .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #556B2F;
+    padding: 10px;
+  }
+
+  .grid-container  div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+      body {
+        font-family : '돋음';
+        color : black;
+      }
+
+            .red {
+              color : red;
+            }
+            .blue {
+              color : blue;
+            }
+      img { max-width: 100%; height: auto; }
+
+      .thumbnail-wrappper { width: 100%; }
+      img { max-width: 100%; height: auto; }
+
+      @media  screen and (max-width: 100%) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      @media  screen and (max-width: 100%) {
+     .topnav a {
+      float: none;
+     width: 100%;
+      }
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #556B2F;
+        margin-top: 20px;
+      }
+      a {
+          text-decoration : none;
+          color : black; }
+
+    </style>
+
+  </head>
+  <body>
+      <div class="header" style="opacity:0.8;">
+      <a href="index.html"><h1>PLAY % REWIND</h1></a>
+      <p>Kim Gaeun Assignment Zip</p>
+    </div>
+    <div class="topnav">
+        <a href="index07.html">News</a>
+      <a href="index02.html">Calendar</a>
+      <a href="index03.html">Gallery</a>
+
+    </div>
+
+    <div class="grid-container">
+  <div class="item1"><h2>너무 어려운 그대...프로그래밍</h2><h5>2020.12.18</h5></div>
+  <div class="item2"> <a href="index5.html"><h5>놀거리 코스</h5><br><img src="img/hangang.jpg"><br><img src="img/hongik2.jpg"></a>
+    </div>
+<div><a href="index1.html"><img src="img/history.jpg"></a><h6>콘텐츠 프로그래밍 직무수행평가1<br>
+  사진을 클릭하여 과제를 확인해보세요!
+</h6></div>
+
+  <div class="item4"><h6>직무수행평가1때는
+너무 아무것도 모르고 <br>만들게 된 홈페이지였다.<br>
+의욕만 가득하게 많은 정보를 찾아서 진행했지만 <br>
+레이아웃을 생각치도 않고 진행하는 바람에 <br>
+엉망진창인 홈페이지가 탄생했다.<br>
+  이제서야 어디가 잘못되고 어디를 고칠지 <br>
+  코딱지만큼은 알게 되었는데<br>
+  이제서야 걸음마를 겨우 깨우쳤는데 <br>
+  끝나버렸다니 싱숭생숭하다.<br>
+  물론 이번에도 내 마음처럼<br>
+  진행되지 않아서 너무 슬펐지만<br>
+  나만의 홈페이지를 만드는 과정이<br>
+  어려우면서도 재미는 있었다. <br>
+  시간이 벌써 흘러서<br>
+  놀라울 따름이다.<br>
+  </h6>
+  <h5>_김가은의 소감</h5>
+
+  </div>
+  <div class="item5"><h5>홈페이지 주제_서울 소개 <br>
+   설정한 컨셉_ 내가 가고 싶거나 가본 곳을 조사(소개) <br>
+  제작_김가은 | 도움_네이버 사진 <br>
+  과제의 포인트 지점_ (놀거리 코스) 내가 직접 가본 놀거리를 소개하는 창 <br>
+  </h5></div>
+  </div>
+
+    <div class="grid-container">
+    <div class="item1"><h2>본격 머리안쓰려고 몸이 고생하기! 콘텐츠 디자인</h2><h5>2020.12.17</h5></div>
+    <div class="item2"><h5>최종 시안 작업</h5><br><img src="img/콘텐츠디자인시안.png"></div>
+    <video width='800' height='450' autoplay controls loop>
+    <source src='서울일러스트페어.mp4' type='video/mp4'>
+    <source src='서울일러스트페어.webm' type='video/webm'>
+        <source src='서울일러스트페어.ogg' type='video/ogg'>
+          </video>
+
+    <div class="item4"><h6>xd에 모션을 넣을 방법을 몰라서 <br>처음부터 끝까지 에프터이펙트로 작업했는데<br>
+  시간이 너무 촉박해서 힘들었다. <br>
+  아예 가상의 행사를 만들으려니<br>
+  과제는 끝이 나지 않고  <br>
+  몸은 바쁜데 손은 하나여서 힘들었다.<br>
+다음번에는 조금은 머리를 써서 <br>
+  작업을 진행해야 조금 더<br>
+  퀄리티가 있는 작품이 탄생할 것 같다.<br>
+  주제 선정은 재미있었지만  <br>
+  마무리부분이 아쉬워서 나중에<br>
+고쳐보고 싶은 작품 중 하나이다.<br>
+  </h6>
+  <h5>_김가은의 소감</h5>
+
+  </div>
+    <div class="item5"><h5>영상 브랜드_서울일러스트페어 <br>
+    영상 주제(컨셉)_ 2020 서울일러스트페어 온라인 버전의 디지털 브로슈어 <br>
+   영상 제작_김가은 도움_서울일러트페어 홈페이지<br>
+   과제의 포인트 지점_ 전형적인 홈페이지를 탈피하고 다양한 체험 요소가 공존하는 디지털 브로슈어<br>
+  </h5></div>
+  </div>
+    <div class="grid-container">
+  <div class="item1"><h2>영상디자인 완성되기까지..?</h2><h5>2020.12.08</h5></div>
+  <div class="item2"><h5>스토리보드</h5><br><img src="img/story1.jpg"><br><img src="img/story.jpg"></div>
+  <video width='800' height='450' autoplay controls loop>
+  <source src='도비는자유의몸이에요조.mp4' type='video/mp4'>
+  <source src='도비는자유의몸이에요조.webm' type='video/webm'>
+      <source src='도비는자유의몸이에요조.ogg' type='video/ogg'>
+        </video>
+
+  <div class="item4"><h6>친구들과 함께 촬영하고
+  같이 만들어 <br>완성된 영상을 보니 뿌듯하다!<br>
+시간이 너무 촉박해서 힘들었지만 <br>
+힘든만큼 재미도 있었다.<br>
+제출하는 주의 주말은 거의 <br>
+영상 과제만 했던 것 같다.<br>
+여러가지 시행착오 (특히 일러스트)<br>
+를 겪으면서 발전한 것 같다.<br>
+서로의 취향도 다르고 추구하는 느낌이<br>
+달라서 처음에는 걱정을 했는데 <br>
+각자의 장점을 잘 살려준 영상이<br>
+나온 것 같아서 다행이다.<br>
+</h6>
+<h5>_김가은의 소감</h5>
+
+</div>
+  <div class="item5"><h5>영상 브랜드_어도비(Adobe) <br>
+  영상 주제(컨셉)_ 어도비로 이루어지는 무한한 상상력과 창조의 과정 <br>
+ 영상 팀원_김가은 | 안소영 | 이정은 <br>
+ 과제의 포인트 지점_ 현실과 어도비 세상에서의 분위기 전환(기능 설명) <br>
+</h5></div>
+</div>
+
+
+<div class="grid-container">
+<div class="item1"><h2>신기했었던 그 과제 미디어테크놀로지</h2><h5>2020.12.08</h5></div>
+  <div class="item2"><h5>가장 마음에 드는 부분</h5><br><img src="img/02_content1.jpg"><br><img src="img/02_content7.jpg"><img src="img/02_content6.jpg"></div>
+  <video width='800' height='450' autoplay controls loop>
+  <source src='유니티_기말.mp4' type='video/mp4'>
+  <source src='유니티_기말.webm' type='video/webm'>
+    <source src='유니티_기말.ogg' type='video/ogg'>
+      </video>
+
+<div class="item4"><h6>처음에 2D 유니티를 코딩을 경험한 후
+<br>3D를 처음 봤을때 이게 정말 <br>
+완성이 가능할까라는 걱정 근심이 가득했었는데  <br>
+결과적으로는 아주 재미있었다.<br>
+코딩은 사실 많이 없었고 캐릭터들이 멋지게<br>
+내가 만든 맵에서 움직이는게 너무 멋있었다. <br>
+결과물은 참혹했지만 <br>그래도 내가 3D를 완성할 것이라<br>
+생각하지도 못했었기에 나는 나름<br>
+나 혼자 즐겼다는 점에서 <br>
+만족을 하는 과제였다.<br>
+맵 구상부터 캐릭터를 움직이는 과정이<br>
+흥미롭고 신기한 경험이었다.<br>
+</h6>
+<h5>_김가은의 소감</h5>
+
+<div class="item5"><h5>유니티 주제_과제가 가득 찬 나의 머리<br>
+유니티 주제(컨셉)_ 너무 바빠서 과제로만 머리가 가득찬 나의 머리 속을 표현해보았다. <br>
+유니티 제작_김가은 <br>
+과제의 포인트 지점_ 미스터리 박스로 어디로 이동할 지 모르는 기대감</h5></div>
+</div>
+</div>
+
+
+<div class="footer" style="opacity:0.8;">
+  <p>
+    Email_ kgebella@naver.com | Phone_010-5366-1430 | sns_Instagram(sissssse) <br>
+  Kaywon univ </p>
+</div>
+  </body>
+</html>
